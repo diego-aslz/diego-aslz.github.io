@@ -26,11 +26,7 @@ sudo apt-get install git git-core
 Now, let's create a repository. I'll do it in a `git` folder in my `home` directory:
 
 {% highlight bash %}
-cd
-mkdir git
-cd git
-mkdir myproject
-cd myproject
+mkdir -p ~/git/myproject && cd $_
 {% endhighlight %}
 
 We are inside an empty folder, my project's base folder, named `myproject`. We want
