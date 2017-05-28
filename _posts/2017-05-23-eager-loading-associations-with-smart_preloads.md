@@ -2,6 +2,7 @@
 layout: post
 title: "Eager Loading Associations with smart_preloads"
 category: posts
+comments: true
 ---
 
 A few weeks ago I came across an issue while dealing with associations I had

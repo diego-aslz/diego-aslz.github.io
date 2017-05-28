@@ -2,6 +2,7 @@
 layout: post
 title: "Working around PS3 lagged updates"
 category: posts
+comments: true
 ---
 
 I have a PS3 and I bought a new game. However, before I can play my new game,

@@ -2,6 +2,7 @@
 layout: post
 title: "Git - The awesome version control manager system"
 category: posts
+comments: true
 ---
 
 Hi,

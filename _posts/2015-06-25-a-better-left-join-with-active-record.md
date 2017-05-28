@@ -2,6 +2,7 @@
 layout: post
 title: "A Better LEFT JOIN with ActiveRecord"
 category: posts
+comments: true
 ---
 
 Every once in a while when I'm working with Rails, I face a little
