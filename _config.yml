@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Diego Selzlein
+email: hemangsk@gmail.com
+description: Stories, tutorials, codes, projects, thoughts and other things by Diego Selzlein.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://nerde.github.io" # the base hostname & protocol for your site
+twitter_username: nerde
+github_username:  nerde
+linkedin_username: diego-aguir-selzlein-04025923
+linkedin_name: Diego's Profile
+analytics: UA-42080782-1
+paginate: 5
+
+gems: [jekyll-paginate, kramdown]
+# Build settings
+markdown: kramdown
