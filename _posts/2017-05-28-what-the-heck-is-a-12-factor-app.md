@@ -15,7 +15,7 @@ I decided to investigate about it and, thanks to the
 and [this blog post](http://www.clearlytech.com/2014/01/04/12-factor-apps-plain-english/)
 I now know a bit more about it and I'd like to share it.
 
-In summary, the 12-factor methodology consists in 12 rules that improves an
+In summary, the 12-factor methodology consists in 12 rules that improve an
 app's quality and maintainability. According to their website, _any developer
 building applications which run as a service_ should read about it.
 
@@ -78,8 +78,8 @@ to handle a subsequent process or request without a problem.
 ## #7 - Port binding
 > Export services via port binding.
 
-The services your app provide should be bound to a port, like 80 for HTTP
-services. The case here is that in development you'll access your service, 
+The services your app provides should be bound to a port, like 80 for HTTP
+services. The case here is that in development you'll access your services, 
 for instance, via port 3000 and in production via port 80, but you **will**
 use a port. By explicitly declaring a dependency like Puma (see #2), you'll
 have that webserver library binding your service to a port. One app can have
@@ -119,7 +119,7 @@ _A twelve-factor app never concerns itself with routing or storage of its
 output stream_. A 12-factor app should have logs streamed to the standard
 output and they you should be available even in production environment.
 
-Services [Papertrail](https://papertrailapp.com/) can help you here.
+Services like [Papertrail](https://papertrailapp.com/) can help you here.
 
 ## #12 - Admin processes
 > Run admin/management tasks as one-off processes.
@@ -138,6 +138,6 @@ production dynos have.
 
 In general, I find these rules easy to follow. You usually get most of them
 for free. I bet most developers/engineers already follow them without even
-knowing they were in a list called __The 12-Factor__ (my case).
+knowing they are in a list called __The 12-Factor__ (my case).
 
-So here you have it, hope you find this useful.
+So here you have it, hope you find this useful!
