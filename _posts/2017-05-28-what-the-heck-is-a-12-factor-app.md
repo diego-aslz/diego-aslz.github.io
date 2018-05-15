@@ -41,8 +41,8 @@ Long story short, **don't** store passwords or URLs (database, Redis,
  Elasticsearch) in your code! **Don't** even put them in your version
 control! It's a security flaw!
 
-Use gems like [dotenv-rails](https://github.com/bkeepers/dotenv) to 
-manage configuration in your dev machine (or even in production, 
+Use gems like [dotenv-rails](https://github.com/bkeepers/dotenv) to
+manage configuration in your dev machine (or even in production,
 if there's no other way) and, if you use Heroku, it
 provides you a way to set environment variables through `heroku config`.
 
@@ -63,7 +63,7 @@ command in the terminal would be ideal. It should build, release and ensure
 the new version is running.
 
 In the Rails world, the tools used here are usually
-[Capistrano](https://github.com/capistrano/rails) or 
+[Capistrano](https://github.com/capistrano/rails) or
 `git push heroku master` if you deploy to Heroku.
 
 ## #6 - Processes
@@ -79,7 +79,7 @@ to handle a subsequent process or request without a problem.
 > Export services via port binding.
 
 The services your app provides should be bound to a port, like 80 for HTTP
-services. The case here is that in development you'll access your services, 
+services. The case here is that in development you'll access your services,
 for instance, via port 3000 and in production via port 80, but you **will**
 use a port. By explicitly declaring a dependency like Puma (see #2), you'll
 have that webserver library binding your service to a port. One app can have
@@ -98,7 +98,7 @@ and have more workers running.
 ## #9 - Disposability
 > Maximize robustness with fast startup and graceful shutdown.
 
-The processes that run your app should be disposable, i. e. shutdown and start back up gracefully and quickly so you can deploy several times a day. 
+The processes that run your app should be disposable, i. e. shutdown and start back up gracefully and quickly so you can deploy several times a day.
 Heroku already gives you 0 downtime deploy, but you should make your app
 load fast so you won't have requests waiting 20 seconds for your app to load.
 If you use a VPS, solutions like Puma and Unicorn support 0 downtime deploy,
