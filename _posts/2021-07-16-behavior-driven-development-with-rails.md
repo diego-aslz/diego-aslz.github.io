@@ -5,7 +5,7 @@ category: posts
 comments: true
 ---
 
-[![Behavior Driven Development with Rails on Youtube](https://img.youtube.com/vi/U73P7dbyqGg/0.jpg)](https://www.youtube.com/watch?v=U73P7dbyqGg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U73P7dbyqGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In the previous episode, I explained how I like to test my Rails apps with an example. In this episode, I want to take that example one step further and rewrite it with Cucumber.
 
