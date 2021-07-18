@@ -10,9 +10,9 @@ title: Diego Selzlein
 email: hemangsk@gmail.com
 description: Stories, tutorials, codes, projects, thoughts and other things by Diego Selzlein.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://diego-aslz.github.io" # the base hostname & protocol for your site
-twitter_username: nerde_
-github_username:  nerde
+url: "http://diegoslz.dev" # the base hostname & protocol for your site
+twitter_username: diego_aslz
+github_username:  diego-aslz
 linkedin_username: diego-aguir-selzlein-04025923
 linkedin_name: Diego's Profile
 analytics: UA-42080782-1
